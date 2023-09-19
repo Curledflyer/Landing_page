@@ -122,3 +122,34 @@ h2 {
     color: #1F2937;
     font-weight: 300;
 }
+
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    padding: 16px 64px;
+    margin: 60px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+}
+
+.action button {
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
