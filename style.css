@@ -11,17 +11,16 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     padding: 10px;
-    gap: 10px;
+    gap: 320px;
     justify-content: center;
 }
 
-.logo {
-    margin-right: auto;
-}
-
-a {
-    color: #E5E7EB;
+.links {
+    display: flex;
+    color: #b0b1b4;
     font-size: 18px;
+    align-self: center;
+    gap: 20px;
 }
 
 .hero {
@@ -46,12 +45,11 @@ h1 {
 }
 
 .content {
-    max-width: 400px;
+    max-width: 450px;
     height: 250px;
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 0;
+    justify-content: center;
 }
 
 button {
@@ -61,11 +59,13 @@ button {
     color: white;
     border-style: none;
     border-radius: 4px;
+    margin-top: 16px;
 }
 
 .content p {
-    color: #E5E7EB;
+    color: #b0b1b4;;
     font-size: 18px;
+    margin: 0px;
 }
 
 h2 {
@@ -79,7 +79,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
+    padding-bottom: 70px;
 }
 
 .box {
@@ -87,7 +88,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    width: 100px;
+    width: 125px;
 }
 
 .box div {
@@ -107,7 +108,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 260px;
+    padding: 70px 260px;
     flex-direction: column;
     flex-wrap: wrap;
 }
