@@ -56,9 +56,11 @@ h1 {
 
 button {
     width: 80px;
-    height: 20px;
+    height: 30px;
     background-color: #3882f6;
     color: white;
+    border-style: none;
+    border-radius: 4px;
 }
 
 .content p {
@@ -98,4 +100,25 @@ h2 {
 .box p {
     text-align: center;
     font-size: 14px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 260px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.quote h3 {
+    align-self: flex-end;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
 }
